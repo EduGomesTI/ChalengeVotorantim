@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0-AppService", "0-AppService", "{5E8791E9-6DB0-4FED-8620-71E8BD2D74E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Application", "1-Application", "{70E9CADC-CD3F-4FC6-AAA8-21D0F81D8968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Domain", "2-Domain", "{DF836679-4B5C-4735-8EF4-52326F3639CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{476D83FA-E9FD-4ED8-A164-BE5AD604EB78}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Test", "4-Test", "{4F31960C-0002-43FB-9038-484480618282}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1-CrossCutting", "3.1-CrossCutting", "{2B0A5E74-CDAB-42FB-80E6-AC9D83D68776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2-Data", "3.2-Data", "{3093FAE2-E781-4DC5-A91C-12B4BF4EAB41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.Api", "Votorantim.Api\Votorantim.Api.csproj", "{867C971C-6FB7-4BD5-A171-0B11749EADDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.Application", "Votorantim.Application\Votorantim.Application.csproj", "{4DCB5BFD-2B2D-425A-8BD5-349C88561655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.Domain", "Votorantim.Domain\Votorantim.Domain.csproj", "{E721E595-8AE1-4DAB-B112-837FA8678794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.CrossCutting", "Votorantim.CrossCutting\Votorantim.CrossCutting.csproj", "{4F1B4769-CA22-44C4-AF47-A1FE238679FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.Data", "Votorantim.Data\Votorantim.Data.csproj", "{221524C5-81AE-46A2-8C5C-DD957B897471}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Votorantim.UnitTests", "Votorantim.UnitTests\Votorantim.UnitTests.csproj", "{5B167641-035E-4FF8-8524-AA839FBD08E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{867C971C-6FB7-4BD5-A171-0B11749EADDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{867C971C-6FB7-4BD5-A171-0B11749EADDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{867C971C-6FB7-4BD5-A171-0B11749EADDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{867C971C-6FB7-4BD5-A171-0B11749EADDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DCB5BFD-2B2D-425A-8BD5-349C88561655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCB5BFD-2B2D-425A-8BD5-349C88561655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCB5BFD-2B2D-425A-8BD5-349C88561655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCB5BFD-2B2D-425A-8BD5-349C88561655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E721E595-8AE1-4DAB-B112-837FA8678794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E721E595-8AE1-4DAB-B112-837FA8678794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E721E595-8AE1-4DAB-B112-837FA8678794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E721E595-8AE1-4DAB-B112-837FA8678794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F1B4769-CA22-44C4-AF47-A1FE238679FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F1B4769-CA22-44C4-AF47-A1FE238679FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F1B4769-CA22-44C4-AF47-A1FE238679FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F1B4769-CA22-44C4-AF47-A1FE238679FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{221524C5-81AE-46A2-8C5C-DD957B897471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{221524C5-81AE-46A2-8C5C-DD957B897471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{221524C5-81AE-46A2-8C5C-DD957B897471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{221524C5-81AE-46A2-8C5C-DD957B897471}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B167641-035E-4FF8-8524-AA839FBD08E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B167641-035E-4FF8-8524-AA839FBD08E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B167641-035E-4FF8-8524-AA839FBD08E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B167641-035E-4FF8-8524-AA839FBD08E6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2B0A5E74-CDAB-42FB-80E6-AC9D83D68776} = {476D83FA-E9FD-4ED8-A164-BE5AD604EB78}
+		{3093FAE2-E781-4DC5-A91C-12B4BF4EAB41} = {476D83FA-E9FD-4ED8-A164-BE5AD604EB78}
+		{867C971C-6FB7-4BD5-A171-0B11749EADDC} = {5E8791E9-6DB0-4FED-8620-71E8BD2D74E4}
+		{4DCB5BFD-2B2D-425A-8BD5-349C88561655} = {70E9CADC-CD3F-4FC6-AAA8-21D0F81D8968}
+		{E721E595-8AE1-4DAB-B112-837FA8678794} = {DF836679-4B5C-4735-8EF4-52326F3639CF}
+		{4F1B4769-CA22-44C4-AF47-A1FE238679FC} = {2B0A5E74-CDAB-42FB-80E6-AC9D83D68776}
+		{221524C5-81AE-46A2-8C5C-DD957B897471} = {3093FAE2-E781-4DC5-A91C-12B4BF4EAB41}
+		{5B167641-035E-4FF8-8524-AA839FBD08E6} = {4F31960C-0002-43FB-9038-484480618282}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F11F9EDB-5294-4BFC-BA7C-4B6CBB5E9634}
+	EndGlobalSection
+EndGlobal
