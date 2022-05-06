@@ -19,3 +19,4 @@ Tickets - Cadastra um caminhão para uma doca. Só precisa colocar o Id do camin
 
 Transport - Este endpoint mostra onde oo caminhão está na rota, simula ele passando por um sensor.
 Deve-se colocar apenas o Id do Ticket e do Device.
+###
